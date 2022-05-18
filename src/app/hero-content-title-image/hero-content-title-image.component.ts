@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Hero } from '../hero'
 
 @Component({
@@ -7,8 +7,5 @@ import { Hero } from '../hero'
   styleUrls: ['./hero-content-title-image.component.css']
 })
 export class HeroContentTitleImageComponent {
-
   @Input() heroContent!: Hero;
-
-
 }

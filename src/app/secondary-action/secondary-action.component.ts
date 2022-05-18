@@ -8,4 +8,5 @@ import { IconDefinition } from '@fortawesome/free-solid-svg-icons';
 })
 export class SecondaryActionComponent {
   @Input() icon!: IconDefinition;
+  text = 'More Info';
 }

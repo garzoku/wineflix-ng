@@ -1,6 +1,6 @@
 <li>
     <div class="wine">
-        <img src="/assets/red-wine.jpg" alt="Wine" />
+        <img src="{{wine.imageUrl}}" alt="{{wine.label}}" />
         <span *ngIf="wine.isNew" class="new-badge">New!</span>
         <div *ngIf="wine.progress" class="amount-consumed">
             <progress min="0" max="100" value="22"></progress>

@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Wine } from '../wine'
 
 @Component({
@@ -6,12 +6,6 @@ import { Wine } from '../wine'
   templateUrl: './wine.component.html',
   styleUrls: ['./wine.component.css']
 })
-export class WineComponent implements OnInit {
+export class WineComponent {
   @Input() wine!: Wine;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }
