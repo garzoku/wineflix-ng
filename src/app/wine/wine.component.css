@@ -1,0 +1,36 @@
+.wine {
+    width: 300px;
+    margin-right: 4px;
+    position: relative
+}
+
+.wine img {
+    border-radius: 4px;
+    height: 205px
+}
+
+.wine .new-badge {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #b81430;
+    color: #fff;
+    font-weight: 700;
+    padding: 8px 12px
+}
+
+.wine .amount-consumed {
+    padding: 0 48px 16px 48px
+}
+
+.wine .amount-consumed progress {
+    width: 100%;
+    height: 4px;
+    background-color: #4d4d4d;
+    border: none
+}
+
+.wine .amount-consumed progress::-moz-progress-bar,
+.wine .amount-consumed progress::-webkit-progress-bar {
+    background-color: #b81430
+}
