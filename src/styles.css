@@ -1,13 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@400;700&display=swap);
 
-.hero-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: -1
-}
-
 .primary-action {
     background-color: #e6e6e6;
     color: #0d0d0d

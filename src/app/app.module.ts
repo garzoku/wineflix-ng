@@ -7,13 +7,15 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import { WineComponent } from './wine/wine.component';
 import { WineCategoryComponent } from './wine-category/wine-category.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { HeroImageComponent } from './hero-image/hero-image.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WineComponent,
     WineCategoryComponent,
-    NavigationComponent
+    NavigationComponent,
+    HeroImageComponent
   ],
   imports: [
     BrowserModule,
