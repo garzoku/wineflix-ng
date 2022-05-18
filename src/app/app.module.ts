@@ -6,12 +6,14 @@ import {AppComponent} from './app.component';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import { WineComponent } from './wine/wine.component';
 import { WineCategoryComponent } from './wine-category/wine-category.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WineComponent,
-    WineCategoryComponent
+    WineCategoryComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
