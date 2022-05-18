@@ -1,0 +1,6 @@
+<section class="category">
+    <h2>{{category}}</h2>
+    <ul>
+        <app-wine *ngFor="let wine of wines" [wine]="wine"></app-wine>
+    </ul>
+</section>

@@ -51,17 +51,7 @@
     </div>
   </header>
   <main>
-    <section class="category">
-      <h2>Drink Again</h2>
-      <ul>
-        <app-wine *ngFor="let wine of finishedWines" [wine]="wine"></app-wine>
-      </ul>
-    </section>
-    <section class="category">
-      <h2>Keep Drinking</h2>
-      <ul>
-        <app-wine *ngFor="let wine of unfinishedWines" [wine]="wine"></app-wine>
-      </ul>
-    </section>
+    <app-wine-category [wines]="finishedWines" [category]="'Drink Again'"></app-wine-category>
+    <app-wine-category [wines]="unfinishedWines" [category]="'Keep Drinking'"></app-wine-category>
   </main>
 </div>

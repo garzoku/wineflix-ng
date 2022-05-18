@@ -5,11 +5,13 @@ import {AppComponent} from './app.component';
 
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import { WineComponent } from './wine/wine.component';
+import { WineCategoryComponent } from './wine-category/wine-category.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WineComponent
+    WineComponent,
+    WineCategoryComponent
   ],
   imports: [
     BrowserModule,

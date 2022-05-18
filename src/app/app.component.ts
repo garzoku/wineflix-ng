@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { faPlay, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import { wines } from './data'
 
@@ -14,5 +14,7 @@ export class AppComponent {
 
   unfinishedWines = wines.filter(wine => wine.progress)
   finishedWines = wines.filter(wine => wine.isFinished)
+
+  @Input() category!: string;
 
 }
