@@ -1,15 +1,11 @@
-.category {
-    margin-bottom: 16px
-}
-
-.category h2 {
+h2 {
     color: #fff;
     font-size: 32px;
     font-weight: 400;
     margin-bottom: 20px
 }
 
-.category ul {
+ul {
     display: flex;
     flex-flow: row nowrap;
     overflow-x: auto

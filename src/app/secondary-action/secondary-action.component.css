@@ -5,3 +5,13 @@ button {
     font-weight: 700;
     font-size: 22px
 }
+
+.secondary-action {
+    background-color: hsla(0, 0%, 100%, .3);
+    color: #e6e6e6
+}
+
+li {
+    display: inline;
+    margin-right: 12px
+}

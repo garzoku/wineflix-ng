@@ -6,17 +6,17 @@
       <app-hero-content-title-image [heroContent]="heroContent"></app-hero-content-title-image>
       <app-hero-content-description [heroContent]="heroContent"></app-hero-content-description>
       <ul class="controls">
-        <li>
-          <app-primary-action [icon]="faPlay"></app-primary-action>
-        </li>
-        <li>
-          <app-secondary-action [icon]="faInfoCircle"></app-secondary-action>
-        </li>
+        <app-primary-action [icon]="faPlay"></app-primary-action>
+        <app-secondary-action [icon]="faInfoCircle"></app-secondary-action>
       </ul>
     </div>
   </header>
   <main>
-    <app-wine-category [wines]="finishedWines" [category]="'Drink Again'"></app-wine-category>
-    <app-wine-category [wines]="unfinishedWines" [category]="'Keep Drinking'"></app-wine-category>
+    <section class="category">
+      <app-wine-category [wines]="finishedWines" [category]="'Drink Again'"></app-wine-category>
+    </section>
+    <section class="category">
+      <app-wine-category [wines]="unfinishedWines" [category]="'Keep Drinking'"></app-wine-category>
+    </section>
   </main>
 </div>

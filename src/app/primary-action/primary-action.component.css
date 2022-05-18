@@ -5,3 +5,13 @@ button {
     font-weight: 700;
     font-size: 22px
 }
+
+.primary-action {
+    background-color: #e6e6e6;
+    color: #0d0d0d
+}
+
+li {
+    display: inline;
+    margin-right: 12px
+}
