@@ -9,6 +9,7 @@ import { WineCategoryComponent } from './wine-category/wine-category.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { HeroImageComponent } from './hero-image/hero-image.component';
 import { HeroContentTitleImageComponent } from './hero-content-title-image/hero-content-title-image.component';
+import { HeroContentDescriptionComponent } from './hero-content-description/hero-content-description.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HeroContentTitleImageComponent } from './hero-content-title-image/hero-
     WineCategoryComponent,
     NavigationComponent,
     HeroImageComponent,
-    HeroContentTitleImageComponent
+    HeroContentTitleImageComponent,
+    HeroContentDescriptionComponent
   ],
   imports: [
     BrowserModule,
