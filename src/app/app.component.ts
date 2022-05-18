@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { faPlay, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
+import { faPlay, faInfoCircle, IconDefinition } from '@fortawesome/free-solid-svg-icons';
 import { wines } from './data'
 import { heroContent } from './data';
 
@@ -19,5 +19,7 @@ export class AppComponent {
   finishedWines = wines.filter(wine => wine.isFinished)
 
   @Input() category!: string;
+  @Input() text!: string;
+  @Input() icon!: IconDefinition;
 
 }

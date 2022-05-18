@@ -7,16 +7,10 @@
       <app-hero-content-description [heroContent]="heroContent"></app-hero-content-description>
       <ul class="controls">
         <li>
-          <button class="primary-action">
-            <fa-icon [icon]="faPlay"></fa-icon>
-            <span>Drink</span>
-          </button>
+          <app-primary-action [icon]="faPlay"></app-primary-action>
         </li>
         <li>
-          <button class="secondary-action">
-            <fa-icon [icon]="faInfoCircle"></fa-icon>
-            <span>More Info</span>
-          </button>
+          <app-secondary-action [icon]="faInfoCircle"></app-secondary-action>
         </li>
       </ul>
     </div>
