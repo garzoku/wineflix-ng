@@ -34,3 +34,7 @@
 .wine .amount-consumed progress::-webkit-progress-bar {
     background-color: #b81430
 }
+
+img {
+    max-width: 100%
+}
